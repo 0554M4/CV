@@ -1,0 +1,98 @@
+\documentclass{article}
+
+
+\usepackage{tcolorbox,mathpazo,fontawesome5,amssymb,tikz,enumitem}
+\usepackage{ragged2e}
+%--Geometry-Package--%
+\usepackage{geometry}
+\geometry{margin=0cm,paper=a4paper}
+\usepackage{xcolor}
+\definecolor{igold}{RGB}{0,100,255}
+
+\begin{document}
+	\pagecolor{white}
+	\noindent
+	\begin{tcolorbox}[sharp corners,colback=black,colframe=black,coltext=white]
+		\vspace{0.5cm}{\Huge\bfseries\textsc{Ossama} Azuzaui}\\
+		\vspace{-7.5pt}\\
+		\'Etudiant chercheur, sp\'ecialit\'e : Math\'ematique, Analyse fondamental.
+	\end{tcolorbox}
+	\vspace{-2pt}
+	\noindent
+	\begin{minipage}{0.33\linewidth}
+			\begin{tcolorbox}[sharp corners,colframe=white,colback=white,coltext=black,colbacktitle=darkgray]
+				\begin{minipage}{\linewidth}
+					\begin{center}
+						\begin{tikzpicture}
+							\clip (-0.5,10pt) circle (50pt) ;
+							\draw[fill=black] (-0.5,10pt) circle (50pt) ;
+							\node[anchor=center] (0,0) {\includegraphics[height=100pt]{CodePic.png}};
+						\end{tikzpicture}
+					\end{center}
+						\begin{tcolorbox}[sharp corners,colframe=white,colback=white,coltext=black,colbacktitle=darkgray!50!igold,title=\textbf{\faInfoCircle\quad Information}]
+							\begin{tabular}{cl}
+								 \faCalendar   & \(\mathfrak{21/04/2001}\)             \\
+								\faPhoneSquare & \(\mathfrak{+\ 212\ 606-503733}\)    \\
+								   \faHome     & Quartier Administratif,               \\
+								               & BenTaieb Driouch.                     \\
+								 \faMailBulk   & azuzaui.\(\mathfrak{1977}\)@gmail.com
+							\end{tabular}
+						\end{tcolorbox}
+					\rule{0pt}{.5\textheight}
+				\end{minipage}
+			\end{tcolorbox}
+	\end{minipage}
+	\begin{minipage}{.66\linewidth}
+		\begin{flushright}
+			\begin{minipage}{\linewidth}\noindent
+				\begin{tcolorbox}[sharp corners,colframe=white,colback=white,coltext=black]
+					\begin{tcolorbox}[sharp corners,colframe=white,colback=white,coltext=black,colbacktitle=darkgray!50!igold,title=\textbf{\faLanguage\quad Langues}]
+						\begin{tabular}{lll}
+							Amazighe & \begin{tikzpicture}[scale=0.25]\draw[fill=gray!50!igold,gray!50!igold] (0,0) rectangle (16,1);\draw (0,0) rectangle (20,1);\end{tikzpicture} & \small\textit{\'Eloquent}      \\
+							Arabe    & \begin{tikzpicture}[scale=0.25]\draw[fill=gray!50!igold,gray!50!igold] (0,0) rectangle (16,1);\draw (0,0) rectangle (20,1);\end{tikzpicture} & \small\textit{\'Eloquent}	   \\
+							Français & \begin{tikzpicture}[scale=0.25]\draw[fill=gray!50!igold,gray!50!igold] (0,0) rectangle (12,1);\draw (0,0) rectangle (20,1);\end{tikzpicture} & \small\textit{Interm\'ediaire} \\
+							Anglais  & \begin{tikzpicture}[scale=0.25]\draw[fill=gray!50!igold,gray!50!igold] (0,0) rectangle (10,1);\draw (0,0) rectangle (20,1);\end{tikzpicture} & \small\textit{Basique}         
+						\end{tabular}
+					\end{tcolorbox}
+					\begin{tcolorbox}[sharp corners,colframe=white,colback=white,coltext=black,colbacktitle=darkgray!50!igold,title=\textbf{\faCode\quad Comp\'etences informatiques}]
+						\begin{tabular}{lcl}
+							Microsoft Word       &    \faFileWord    & \begin{tikzpicture}[scale=0.25]\draw[fill=gray!50!igold,gray!50!igold] (0,0) rectangle (15,1);\draw (0,0) rectangle (20,1);\end{tikzpicture} \\
+							Microsoft PowerPoint & \faFilePowerpoint & \begin{tikzpicture}[scale=0.25]\draw[fill=gray!50!igold,gray!50!igold] (0,0) rectangle (16,1);\draw (0,0) rectangle (20,1);\end{tikzpicture} \\
+							Microsoft Excel      &    \faFileExcel   & \begin{tikzpicture}[scale=0.25]\draw[fill=gray!50!igold,gray!50!igold] (0,0) rectangle (14,1);\draw (0,0) rectangle (20,1);\end{tikzpicture} \\
+							Latex                &       \LaTeX      & \begin{tikzpicture}[scale=0.25]\draw[fill=gray!50!igold,gray!50!igold] (0,0) rectangle (16,1);\draw (0,0) rectangle (20,1);\end{tikzpicture} \\
+							HTML                 &      \faHtml5     & \begin{tikzpicture}[scale=0.25]\draw[fill=gray!50!igold,gray!50!igold] (0,0) rectangle (14,1);\draw (0,0) rectangle (20,1);\end{tikzpicture} \\
+							CSS                  &      \faCss3*     & \begin{tikzpicture}[scale=0.25]\draw[fill=gray!50!igold,gray!50!igold] (0,0) rectangle (12,1);\draw (0,0) rectangle (20,1);\end{tikzpicture} \\
+							Python               &     \faPython     & \begin{tikzpicture}[scale=0.25]\draw[fill=gray!50!igold,gray!50!igold] (0,0) rectangle (10,1);\draw (0,0) rectangle (20,1);\end{tikzpicture} \\
+							C                    &   \faLaptopCode   & \begin{tikzpicture}[scale=0.25]\draw[fill=gray!50!igold,gray!50!igold] (0,0) rectangle (08,1);\draw (0,0) rectangle (20,1);\end{tikzpicture}
+						\end{tabular}
+					\end{tcolorbox}%
+					\begin{tcolorbox}[sharp corners,colframe=white,colback=white,coltext=black,colbacktitle=darkgray!50!igold,title=\textbf{\faWpexplorer\quad Exp\'eriences}]
+							Cours de formation de 6 mois, au centre \textsc{Ankara}, Beni-Ansar, Nador.
+					\end{tcolorbox}	
+					\begin{tcolorbox}[sharp corners,colframe=white,colback=white,coltext=black,colbacktitle=darkgray!50!igold,title=\textbf{\faProjectDiagram\quad Projets}]
+						\begin{description}\raggedright
+							\item[\(\star\)] Projet de fin d'\'etude pour obtenir du dipl\^ome de la licence fondamentale en math\'ematiques appliqu\'ees, sous titre : ``\textbf{Utilisation de notion de Compacit\'e}''.
+							\item[\(\star\)] Projet Python \faPython\ : Classification des \'etudiants par leurs noms (Version 2022/2023).
+							\item[\(\star\)] Projet \(\mathcal{C}\) \faLaptopCode\ : D\'eterminant les coefficients de Conjecture Goldbach.
+							\item[\(\star\)] Projet \LaTeX\ : Curriculum Vit\ae\ (Ce \textsc{Cv}).
+						\end{description}
+					\end{tcolorbox}
+					\begin{tcolorbox}[sharp corners,colframe=white,colback=white,coltext=black,colbacktitle=darkgray!50!igold,title=\textbf{\faCertificate\quad Étude et diplômes}]
+						\noindent
+						\begin{tabular}{rll}
+							\(\mathfrak{2023}\) & \textbf{Licence fondamentale}                  & Facult\'e pluridisciplinaire \\
+							                    & \textit{Sciences Math\'ematiques Appliqu\'ees} & Nador (F.P.N)                \\
+							                    & (En cours)                                     &                              \\
+							\(\mathfrak{2022}\) & \textbf{D.E.U.G.}                              & Facult\'e pluridisciplinaire \\
+							                    & \textit{Sciences Math\'ematiques Appliqu\'ees} & Nador (F.P.N)                \\
+							                    & Note : \(\mathfrak{12.54}\)                    &                              \\
+							\(\mathfrak{2019}\) & \textbf{Baccalaur\'eat}                        & Lyc\'ee Mohamed VI Bentaieb  \\
+							                    & \textit{Sciences Physiques}                    &                              \\
+							                    & Note : \(\mathfrak{14.79}\)                    &
+						\end{tabular}
+					\end{tcolorbox}
+				\end{tcolorbox}
+			\end{minipage}
+		\end{flushright}
+	\end{minipage}
+\end{document}
